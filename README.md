@@ -4,7 +4,7 @@ This package contains a full test suite for the **Proxycurl** APIs and their end
 
 # Getting Started
 
-In order to run these examples, you need to create a **.env** file in the project's home directory and store your Proxycurl API key in it, like this:  `PROXYCURL_API_KEY=your_api_key` 
+In order to run these examples, you will need to create a **.env** file in the project's home directory and store your Proxycurl API key in it, like this:  `PROXYCURL_API_KEY=your_api_key` 
 
 ## Tips
 
