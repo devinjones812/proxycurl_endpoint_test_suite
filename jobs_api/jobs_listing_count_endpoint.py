@@ -1,0 +1,25 @@
+
+from dotenv import load_dotenv
+load_dotenv()
+import os
+import requests
+
+api_endpoint = 'https://nubela.co/proxycurl/api/v2/linkedin/company/job/count'
+api_key = os.getenv("PROXYCURL_API_KEY")
+header_dic = {'Authorization': 'Bearer ' + api_key}
+params = {
+    'job_type': 'entry_level',
+    'experience_level': 'entry_level',
+    'when': 'past-month',
+    'flexibility': 'remote',
+    'geo_id': '92000000',
+    'keyword': 'software engineer',
+    'search_id': '1035',
+}
+response = requests.get(api_endpoint,
+                        params=params,
+                        headers=header_dic)
+
+
+from print_response import handle_response
+handle_response(response)
