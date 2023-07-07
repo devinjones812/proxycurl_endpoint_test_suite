@@ -10,4 +10,4 @@ In order to run these examples, you will need to create a **.env** file in the p
 
 You can check the number of credits you have remaining by running the **view_credit_balance** endpoint located in the **meta_api** subdirectory.
 
-I've also left comments at the top and bottom of some endpoints that seem to fail to return the right result, take too many credits, or do anything that seems to be abnormal. There's also an indicator comment at the bottom of a file if it has not been tested yet.
+I've also left comments at the top and bottom of some endpoints that seem to fail to return the right result, take too many credits, or do anything that seems to be abnormal.
