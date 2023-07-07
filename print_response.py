@@ -13,7 +13,7 @@ def handle_response(response):
     elif response.status_code == 429:
         print('Usage rate limited. Retrying may be necessary.')
     elif response.status_code == 400:
-        print('Invalid parameters provided. Refer to the Proxycurl documentation and message body for more info.')
+        print('Invalid parameters provided. Refer to the Proxycurl documentation and message body for more info.\n', response.text)
     elif response.status_code == 401:
         print('Invalid API Key')
     elif response.status_code == 403:
