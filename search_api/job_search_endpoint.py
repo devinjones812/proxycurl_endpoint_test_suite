@@ -25,6 +25,4 @@ response = requests.get(api_endpoint,
 
 handle_response(response)
 
-# This endpoint is also found under the "search_api/job_search_endpoint" path
-
-# Not tested yet
+# This endpoint is also found under the "jobs_api/job_search_endpoint" path

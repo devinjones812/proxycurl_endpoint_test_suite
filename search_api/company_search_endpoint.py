@@ -42,5 +42,3 @@ response = requests.get(api_endpoint,
 
 
 handle_response(response)
-
-# Not tested yet

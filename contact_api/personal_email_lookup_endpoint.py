@@ -9,9 +9,9 @@ api_endpoint = 'https://nubela.co/proxycurl/api/contact-api/personal-email'
 api_key = os.getenv("PROXYCURL_API_KEY")
 header_dic = {'Authorization': 'Bearer ' + api_key}
 params = {
-    'twitter_profile_url': 'https://www.twitter.com/proxycurl',
-    'facebook_profile_url': 'https://www.facebook.com/zuck',
-    'linkedin_profile_url': 'https://linkedin.com/in/steven-goh-6738131b',
+#    'twitter_profile_url': 'https://www.twitter.com/proxycurl',
+#    'facebook_profile_url': 'https://www.facebook.com/zuck',
+    'linkedin_profile_url': 'https://linkedin.com/in/kyleroche',
     'email_validation': 'include',
     'page_size': '0',
 }
@@ -20,7 +20,6 @@ response = requests.get(api_endpoint,
                         headers=header_dic)
 
 
-
 handle_response(response)
 
-# Not tested yet
+# You can include only one of the following URLs at a time: Twitter, Facebook, LinkedIn
