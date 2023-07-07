@@ -1,13 +1,13 @@
-
+import os
+import requests
+from print_response import handle_response
 from dotenv import load_dotenv
 load_dotenv()
-import os
 
 # Just a heads-up before you run this: I think this costs a TON of credits...
 # "Cost: 35 credits / successful request base charge. + 3 credits / result returned.
 # (Extra charges might be incurred if premium optional parameters are used)"
 
-import requests
 
 api_endpoint = 'https://nubela.co/proxycurl/api/search/company'
 api_key = os.getenv("PROXYCURL_API_KEY")
@@ -40,7 +40,7 @@ response = requests.get(api_endpoint,
                         headers=header_dic)
 
 
-from print_response import handle_response
+
 handle_response(response)
 
 # Not tested yet

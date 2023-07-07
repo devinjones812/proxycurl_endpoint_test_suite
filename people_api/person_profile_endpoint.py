@@ -1,8 +1,9 @@
-
-from dotenv import load_dotenv
-load_dotenv()
 import os
 import requests
+from print_response import handle_response
+from dotenv import load_dotenv
+load_dotenv()
+
 
 api_endpoint = 'https://nubela.co/proxycurl/api/v2/linkedin'
 api_key = os.getenv("PROXYCURL_API_KEY")
@@ -25,7 +26,7 @@ response = requests.get(api_endpoint,
                         headers=header_dic)
 
 
-from print_response import handle_response
+
 handle_response(response)
 
 # Not tested yet
