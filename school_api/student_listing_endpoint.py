@@ -15,7 +15,7 @@ params = {
     'country': 'us',
     'enrich_profiles': 'skip',
     'search_keyword': 'null',
-    'page_size': '10',
+    'page_size': '5',
     'student_status': 'current',
     'sort_by': 'recently-matriculated',
     'resolve_numeric_id': 'false',

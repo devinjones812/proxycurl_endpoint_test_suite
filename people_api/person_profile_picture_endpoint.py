@@ -9,7 +9,7 @@ api_endpoint = 'https://nubela.co/proxycurl/api/linkedin/person/profile-picture'
 api_key = os.getenv("PROXYCURL_API_KEY")
 header_dic = {'Authorization': 'Bearer ' + api_key}
 params = {
-    'linkedin_person_profile_url': 'https://www.linkedin.com/in/williamhgates/',
+    'linkedin_person_profile_url': 'https://www.linkedin.com/in/devinjones812/',
 }
 response = requests.get(api_endpoint,
                         params=params,

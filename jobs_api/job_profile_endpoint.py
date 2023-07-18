@@ -9,7 +9,7 @@ api_endpoint = 'https://nubela.co/proxycurl/api/linkedin/job'
 api_key = os.getenv("PROXYCURL_API_KEY")
 header_dic = {'Authorization': 'Bearer ' + api_key}
 params = {
-    'url': 'https://www.linkedin.com/jobs/view/3046202003/',
+    'url': 'https://www.linkedin.com/jobs/view/3638064009/',
 }
 response = requests.get(api_endpoint,
                         params=params,

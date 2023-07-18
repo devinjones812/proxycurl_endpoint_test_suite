@@ -9,7 +9,7 @@ api_endpoint = 'https://nubela.co/proxycurl/api/contact-api/personal-contact'
 api_key = os.getenv("PROXYCURL_API_KEY")
 header_dic = {'Authorization': 'Bearer ' + api_key}
 params = {
-    'linkedin_profile_url': 'https://linkedin.com/in/steven-goh-6738131b',
+    'linkedin_profile_url': 'https://linkedin.com/in/vasinov',
     'page_size': '0',
 }
 response = requests.get(api_endpoint,

@@ -10,7 +10,7 @@ api_key = os.getenv("PROXYCURL_API_KEY")
 header_dic = {'Authorization': 'Bearer ' + api_key}
 params = {
     'role': 'ceo',
-    'company_name': 'nubela',
+    'company_name': 'Google',
     'enrich_profile': 'enrich',
 }
 response = requests.get(api_endpoint,

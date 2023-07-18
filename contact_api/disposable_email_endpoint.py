@@ -9,7 +9,7 @@ api_endpoint = 'https://nubela.co/proxycurl/api/disposable-email'
 api_key = os.getenv("PROXYCURL_API_KEY")
 header_dic = {'Authorization': 'Bearer ' + api_key}
 params = {
-    'email': 'steven@nubela.co',
+    'email': 'devinjones812@gmail.com',
 }
 response = requests.get(api_endpoint,
                         params=params,

@@ -9,7 +9,7 @@ api_endpoint = 'https://nubela.co/proxycurl/api/linkedin/company'
 api_key = os.getenv("PROXYCURL_API_KEY")
 header_dic = {'Authorization': 'Bearer ' + api_key}
 params = {
-    'url': 'https://www.linkedin.com/company/google/',
+    'url': 'https://www.linkedin.com/company/amazon/',
     'resolve_numeric_id': 'true',
     'categories': 'include',
     'funding_data': 'include',

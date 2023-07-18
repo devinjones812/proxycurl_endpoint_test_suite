@@ -9,7 +9,7 @@ api_endpoint = 'https://nubela.co/proxycurl/api/linkedin/school'
 api_key = os.getenv("PROXYCURL_API_KEY")
 header_dic = {'Authorization': 'Bearer ' + api_key}
 params = {
-    'url': 'https://www.linkedin.com/school/national-university-of-singapore',
+    'url': 'https://www.linkedin.com/school/stanford-university/',
     'use_cache': 'if-present',
 }
 response = requests.get(api_endpoint,
